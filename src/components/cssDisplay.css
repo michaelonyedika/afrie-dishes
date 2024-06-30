@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box1 {
+  background: rgb(69, 88, 183);
+}
+
+.box2 {
+  background: rgb(126, 69, 183);
+}
+
+.box3 {
+  background: rgb(172, 69, 183);
+}
+
+.box4 {
+  background: rgb(183, 69, 111);
+}
+
+a,
+button {
+  color: purple;
+  font-weight: 500;
+  margin: 1rem;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: lightblue;
+}
+
+li:first-child {
+  grid-row: 3/3;
+  grid-column: 5/5;
+}
+
+span {
+  color: red;
+  font-weight: bold;
+  padding: 0.5rem;
+}
